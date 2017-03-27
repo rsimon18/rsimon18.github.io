@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0 auto;
+  /*background-color: #eaf0f2;*/
+}
+
+.navbar-default .navbar-brand {
+  color: #666666
+}
+
+.navbar > .container-fluid .navbar-brand {
+  font-size: 2.5rem;
+}
+
+.hero img {
+  width: 100%;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
+  padding-top: 50px;
+}
+
+.navbar {
+  background-color: #eaf0f2;
+  border: none;
+}
+
+.main li {
+  float: right;
+  list-style: none;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.active a {
+  font-weight: bold;
+}
+
+li.active a {
+    background-color: #eaf0f2;
+}
+
+li a {
+  font-size: 1.8rem;
+  color: #666666;
+  padding-right: 1.5rem;
+}
+
+.navbar {
+  vertical-align: middle;
+}
+
+.containter img {
+  height: 200px;
+  width: 100%;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+
+hr {
+  width: 50%;
+  color: #666666;
+  background-color: #666666;
+  height: 1px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 3rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 140px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  text-align: center; 
+  font-size: 1.8rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.card {
+  border: 1px #666666 solid;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 5px #cecece;
+  height: 180px;
+  margin left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 80px;
+}
+
+.hobby1 {
+  border: 1px #666666 solid;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 5px #cecece;
+  height: 160px;
+  margin: 20px;
+}
+
+.hobby1 img {
+  width: 80px;
+}
+
+.hobby2 {
+  border: 1px #666666 solid;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 5px #cecece;
+  height: 160px;
+  margin: 20px;
+}
+
+.hobby2 img {
+  width: 80px;
+}
+
+.hobby3 {
+  border: 1px #666666 solid;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 5px #cecece;
+  height: 160px;
+  margin: 20px;
+}
+
+.hobby3 img {
+  width: 80px;
+}
+
+.hobby4 {
+  border: 1px #666666 solid;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 5px #cecece;
+  height: 160px;
+  margin: 20px;
+}
+
+.hobby4 img {
+  width: 80px;
+}
+
+.footnote p {
+  font-size: 1.4rem;
+}
+
+
+footer p {
+  margin: 0;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: center;
+}
+
+footer {
+  background-color: #666666;
+  width: 100%;
+  padding-top: 2rem;
+  margin-top: 25px;
+}
+
+footer .footer-copy {
+  color: white;
+  /*text-align: center;*/
+  vertical-align: center;
+  display: inline-block;
+  margin: 0;
+}
+
+
+footer  .icons {
+  display: inline-block;
+  vertical-align: center;
+}
+
+footer  .icons .col-xs-12 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  footer .container .footer-copy {
+    text-align: left;
+  }
+  .icons {
+    text-align: right;
+  }
+}
+
+.social-icons {
+  color: white;
+  margin: 8px;
+}
+
+p a {
+  color: #999999;
+  text-decoration: underline;
+}
+
+
+
