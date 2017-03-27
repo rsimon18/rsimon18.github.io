@@ -116,65 +116,13 @@ p {
   border-radius: 20px;
   box-shadow: 6px 6px 5px #cecece;
   height: 180px;
-  margin left: 20px;
+  margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .card img {
-  width: 80px;
-}
-
-.hobby1 {
-  border: 1px #666666 solid;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 6px 6px 5px #cecece;
-  height: 160px;
-  margin: 20px;
-}
-
-.hobby1 img {
-  width: 80px;
-}
-
-.hobby2 {
-  border: 1px #666666 solid;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 6px 6px 5px #cecece;
-  height: 160px;
-  margin: 20px;
-}
-
-.hobby2 img {
-  width: 80px;
-}
-
-.hobby3 {
-  border: 1px #666666 solid;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 6px 6px 5px #cecece;
-  height: 160px;
-  margin: 20px;
-}
-
-.hobby3 img {
-  width: 80px;
-}
-
-.hobby4 {
-  border: 1px #666666 solid;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 6px 6px 5px #cecece;
-  height: 160px;
-  margin: 20px;
-}
-
-.hobby4 img {
   width: 80px;
 }
 
@@ -221,6 +169,17 @@ footer  .icons .col-xs-12 {
   }
   .icons {
     text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  h2 {
+    font-size: 2.3rem;
   }
 }
 
